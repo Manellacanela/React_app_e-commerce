@@ -6,7 +6,7 @@
 .App-nav{
   margin: 20px;
   padding: 18px;
-  border-bottom: 2x  solid #508fca;
+  border-bottom: 2px solid #508fca;
 }
 
 .App-nav ul{
@@ -26,9 +26,17 @@
   display: inline-block;
   margin-right: 32px;
   font-size: 24px;
-  border-bottom:4px solid transparent;
+  border-bottom: 4px solid transparent;
 }
 
 .App-content{
-  margin: o 20px;
-};
+  margin: 0 20px;
+}
+
+.App-nav-item button:hover{
+  color: #999999;
+}
+
+.App-nav-item.selected{
+  border-bottom-color: #ffaa3f;
+}
